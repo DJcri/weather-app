@@ -17,7 +17,7 @@ const WeatherEngine = (props) => {
     setLoading(true);
     try {
       const apiRes = await fetch(
-        `http://api.openweathermap.org/data/2.5/weather?q=${q}&units=metric&APPID=ad9d858445c064c2d477358a7e99ce88`
+        `https://api.openweathermap.org/data/2.5/weather?q=${q}&units=metric&APPID=ad9d858445c064c2d477358a7e99ce88`
       );
       const resJSON = await apiRes.json();
       setWeather({
