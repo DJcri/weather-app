@@ -5,7 +5,7 @@ const Icon = (props) => {
   return (
     <IconImg
       className="weather-icon"
-      src={`http://openweathermap.org/img/wn/${props.icon}@2x.png`}
+      src={`https://openweathermap.org/img/wn/${props.icon}@2x.png`}
       alt="weather icon"
     />
   );
